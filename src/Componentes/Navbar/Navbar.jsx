@@ -5,9 +5,9 @@ import './Navbar.css'
 const Nabvar = () => {
   return (
       <header className='header'>
-        <h1 className='title'>FutbolShopOnline</h1>
 
         <nav className='nav'>
+        <h1 className='title'><span>Futbol</span>Shop<span>Online</span></h1>
           <ul>
             <li>Adidas</li>
             <li>Nike</li>
@@ -18,7 +18,9 @@ const Nabvar = () => {
           </ul>
         </nav>
 
-        <CartWidget/>
+        <div className='cart-div'>
+          <CartWidget/>
+        </div>
       </header>
   )
 }

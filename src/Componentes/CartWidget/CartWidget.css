@@ -1,0 +1,16 @@
+.cart{
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.cart:hover{
+    cursor: pointer;
+}
+
+.cart span{
+    font-size: 20px;
+}
