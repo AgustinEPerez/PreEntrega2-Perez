@@ -1,0 +1,46 @@
+.itemDetail{
+    background-color: #fefefe;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 90rem;
+    padding: 5rem 5px;
+    margin: 8.3rem auto;
+    display: flex;
+}
+
+.itemDetail img{
+    width: 275px;
+    padding: 10px;
+    margin: 0 15px;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(0, 0, 0, 0.1);
+}
+
+.detail{
+    padding: 0 10px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detail h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.detail .desc{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #292929;
+    text-align: left;
+}
+
+.detail p{
+    font-size: 22px;
+}
+
+.detail button{
+    padding: 2.5px 5px;
+    border: none;
+    background-color: #ffbf00;
+    
+    font-size: 18px;
+}
