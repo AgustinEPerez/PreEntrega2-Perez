@@ -1,0 +1,74 @@
+.checkoutContainer {
+max-width: 600px;
+margin: 3rem auto;
+background-color: #ffffff;
+border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkoutContainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.checkoutContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutContainer form div {
+    margin-bottom: 15px;
+}
+
+.checkoutContainer label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.checkoutContainer input {
+    width: 96.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.checkoutContainer input:focus {
+    border-color: #ffbf00;
+    outline: none;
+}
+
+.checkoutContainer button {
+    background-color: #ffbf00;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkoutContainer button:hover {
+    background-color: #edb203;
+}
+
+.checkoutContainer .erroressage {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.checkoutContainer .successessage {
+    color: green;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -32,6 +32,10 @@
     cursor: pointer;
 }
 
+.card button:hover{
+    background-color: #edb203;
+}
+
 .card button a{
     font-size: 15px;
     color: #000;

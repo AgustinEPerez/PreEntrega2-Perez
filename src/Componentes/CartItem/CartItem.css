@@ -1,0 +1,29 @@
+.CartItem {
+    background-color: #f5f;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CartItem h4 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.CartItem button {
+    background-color: #ffbf00;
+    border: none;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CartItem button:hover {
+    background-color: #edb203;
+}

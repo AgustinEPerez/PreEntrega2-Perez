@@ -1,4 +1,10 @@
 .main{
-    background-color: #fff;
-    margin-top: 8rem;
+    background-color: #dedede;
+    padding: 2rem 0;
+}
+
+.main h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 15px;
 }
